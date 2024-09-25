@@ -5,10 +5,12 @@ export default {
   testEnvironment: "jsdom",
   transform: {
     "^.+\\.tsx?$": ["ts-jest", { isolatedModules: true }],
-    "^.+\\.(js|jsx)$": "babel-jest",
+    "^.+\\.(ts|tsx|js|jsx)$": "babel-jest",
   },
   moduleNameMapper: {
     "^~/(.+)": "<rootDir>/src/$1",
+    "\\.(css|scss|sass)$": "identity-obj-proxy" // Para ignorar arquivos de estilo
   },
-//   setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],
+  testEnvironment: 'jsdom',
+  setupFilesAfterEnv: ['<rootDir>/src/tests/setupTests.ts'],
 };

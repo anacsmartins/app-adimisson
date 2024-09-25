@@ -27,8 +27,8 @@ export const Actions = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4px;
-
+  justify-content: flex-end;
+  gap: 8px;
   svg {
     cursor: pointer;
   }

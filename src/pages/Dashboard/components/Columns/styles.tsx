@@ -1,18 +1,21 @@
 import styled from "styled-components";
 const registrationStatusStyles: {
-  [key in string]: { background: string; title: string };
+  [key in string]: { background: string; title: string, bgTitle: string };
 } = {
   REVIEW: {
-    background: "#FDF8E9",
-    title: "#EFC24D",
+    background: "#e0e0e052",
+    title: "#fff",
+    bgTitle: "#ff8858",
   },
   APPROVED: {
-    background: "#EEEEFD",
-    title: "#4242DF",
+    background: "#e0e0e052",
+    title: "#fff",
+    bgTitle: "#59d359a3",
   },
   REPROVED: {
-    background: "#FBEDF6",
-    title: "#CE2893",
+    background: "#e0e0e052",
+    title: "#fff",
+    bgTitle: "#e2b911d1",
   },
 };
 
@@ -37,9 +40,22 @@ export const TitleColumn = styled.h3<{ status: any }>`
   margin: 0px;
   color: ${({ status }) => registrationStatusStyles[status].title};
   margin: 24px;
+  font-weight: 600;
+  border-radius: 20px;
+  background: ${({ status }) => registrationStatusStyles[status].bgTitle};
+  padding: 8px 25px;
+  display: -webkit-inline-box;
+  min-width: -webkit-fill-available;
+  font-variant: all-small-caps;
 `;
 
 export const CollumContent = styled.div`
   overflow: auto;
   max-height: 85%;
+
+  &::-webkit-scrollbar {
+    display: none; /* Esconde a barra de rolagem */
+  }
+
+  scrollbar-width: none; /* Firefox */
 `;
