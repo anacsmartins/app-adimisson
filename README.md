@@ -16,18 +16,31 @@ Dashboard após aterações
 ### Tela Dashboard
   
 ✓ Implementar `GET` ao carregar a pagina e ao fazer pequisa por `CPF`
+
 ✓ Filtrar os cards por coluna, usando o status.
+
 ✓ Implementar `PUT` ao clicar em Reprovar e alterar o status para `REPROVED`
+
 ✓ Implementar `PUT` ao clicar em Aprovar e alterar o status para `APPROVED`
+
 ✓ Implementar `PUT` ao clicar em Revisar novamente e alterar o status para `REVIEW`
+
 ✓ Implementar `DELETE` ao clicar no lixeira no card.
+
 ✓O botão de `Reprovar` e `Aprovar` só deve aparecer em admissões com o status `REVIEW` 
+
 ✓ O botão `Revisar novamente` só deve aparecer em admissões com o status `REPROVED` ou `APPROVED`
+
 - Implementar um loading na tela ao realizar requisições.
+
 ✓ Todas as ações devem ter modal de confirmação e uma notificação de sucesso ou erro
+
 - Na pesquisa por CPF realizar a requisição automaticamente ao preencher um CPF válido
+
 ✓ Adicionar máscara de CPF no campo de pesquisa.
+
 ✓ Atualizar os dados (refetch) ao clicar no ícone de atualizar
+
 
 ### Tela Cadastro
 
