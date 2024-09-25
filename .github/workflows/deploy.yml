@@ -47,4 +47,4 @@ jobs:
         run: yarn install
 
       - name: Deploy        
-        run: git push https://heroku:HRKU-17b03ce3-8396-43f8-9b29-d0462ef0b9b5@git.heroku.com/app-admission.git HEAD:main
+        run: git push https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/app-admisson.git HEAD:main
