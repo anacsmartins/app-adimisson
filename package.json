@@ -13,6 +13,9 @@
     "start": "vite build && vite preview"
 
   },
+  "engines": {
+    "node": ">=14.x"
+  },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.13.3",
