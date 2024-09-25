@@ -10,7 +10,6 @@ Dashboard após aterações
 - Implementar um loading na tela ao realizar requisições.
 - Na pesquisa por CPF realizar a requisição automaticamente ao preencher um CPF válido (foi implementado um botão para acionar a pesquisa)
 - End-to-End (E2E) e Integração
->>>>>>> main
 
 ## Especificações
 
@@ -37,24 +36,6 @@ Dashboard após aterações
 ✓ Implementar validação no campo CPF para aceitar apenas CPFs válidos e adicionar uma máscara de CPF ao campo.
 ✓ Implementar `POST` ao preencher todos os campos corretamentes.
 ✓ Redirecionar ao `/dashboard` ao criar uma nova admissão.
-
-## API
-Você consumirá uma API mockada localmente, que será executada utilizando o json-server. Para mais informações consulte a [documentação](https://github.com/typicode/json-server/).
-
-Exemplo de Requisição:
-
-```
-POST http://localhost:3000/registrations
-Content-Type: application/json
-
-{
-  "admissionDate": "23/10/2023",
-  "email": "maria@caju.com.br",
-  "employeeName": "Maria Silva",
-  "status": "REVIEW",
-  "cpf": "12345678901"
-}
-```
 
 ## Extras (opcional)
 
