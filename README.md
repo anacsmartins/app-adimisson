@@ -7,9 +7,9 @@ Dashboard após aterações
 
 ## Apresentanção do problema
 - Após análise do código recebido e entendimento da proposta solução necessária para implementação do desafio técnico, foi possível concluir a maioria das exigências. Ressalto que  os itens seguinte não foram implementados devido impossibilidade de dedcar mais tempo ao projeto. Entendo que é possivel melhora-lo mas estou encaminhando para análise. Me coloco a disposição, para esclarecimento de eventuais dúvidas;
-- Implementar um loading na tela ao realizar requisições.
-- Na pesquisa por CPF realizar a requisição automaticamente ao preencher um CPF válido (foi implementado um botão para acionar a pesquisa)
-- End-to-End (E2E) e Integração
+  - Implementar um loading na tela ao realizar requisições.
+  - Na pesquisa por CPF realizar a requisição automaticamente ao preencher um CPF válido (foi implementado um botão para acionar a pesquisa)
+  - End-to-End (E2E) e Integração
 
 ## Especificações
 
